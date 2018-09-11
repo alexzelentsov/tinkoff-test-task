@@ -1,0 +1,58 @@
+GET http://localhost:8080/restapi/v1.0/application?contactId=12dd4066-6fa0-4d17-abe7-a7d2dbe43362
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/restapi/v1.0/application?contactId=12dd4066-6fa0-4d17-abe7-a7d2dbe43362
+Accept: application/xml
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8080/restapi/v1.0/application
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "CONTACT_ID": "117357ee-02e9-4e7b-8196-e64798e06022",
+  "DT_CREATED": "2018-09-10T16:15:40.201",
+  "PRODUCT_NAME": "testName"
+}
+###
+
+
+PUT http://localhost:8080/restapi/v1.0/application
+Accept: application/xml
+Cache-Control: no-cache
+Content-Type: application/xml
+
+<APPLICATION>
+    <CONTACT_ID>21c3cb29-524c-408b-bb65-0a4731077e3a</CONTACT_ID>
+    <DT_CREATED>2018-09-10T17:52:10.808</DT_CREATED>
+    <PRODUCT_NAME>testName</PRODUCT_NAME>
+</APPLICATION>
+###
+
+PUT http://localhost:8080/restapi/v1.0/contact
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "CONTACT_ID": "23"
+}
+###
+
+PUT http://localhost:8080/restapi/v1.0/contact
+Accept: application/xml
+Cache-Control: no-cache
+Content-Type: application/xml
+
+<CONTACT>
+    <CONTACT_ID>21c3cb29-524c-408b-bb65-0a4731077e3a</CONTACT_ID>
+</CONTACT>
+###
