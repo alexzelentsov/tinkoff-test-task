@@ -1,4 +1,4 @@
- - ru.alexz.tinkofftesttask.controller.ContactApplicationController.getLatestApplicationByContactId 
+﻿ - ru.alexz.tinkofftesttask.controller.ContactApplicationController.getLatestApplicationByContactId 
 метод по идентификатору находит и возвращает в ответе самую новую заявку контакта.
 
  - так же добавил ендпойнты для создания и удаления заявок и контактов (для тестов)
@@ -19,6 +19,6 @@
                                                          "httpStatus": "INTERNAL_SERVER_ERROR"
                                                        }
                                                      }
-  -                                                                                                           
+                                                                                                           
   
 
