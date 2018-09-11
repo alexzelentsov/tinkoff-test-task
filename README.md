@@ -1,9 +1,9 @@
-﻿ - ru.alexz.tinkofftesttask.controller.ContactApplicationController.getLatestApplicationByContactId 
-метод по идентификатору необходимо находит и возвращает в ответе самую новую заявку контакта.
+ - ru.alexz.tinkofftesttask.controller.ContactApplicationController.getLatestApplicationByContactId 
+метод по идентификатору находит и возвращает в ответе самую новую заявку контакта.
 
  - так же добавил ендпойнты для создания и удаления заявок и контактов (для тестов)
  
- - rest-api-test-task.http - файл с примерами запросом к апи
+ - rest-api-test-task.http - файл с примерами запросов к апи
 
  - ендпойнты предоставляют потребителю сервиса возможность выбора формата ответа – JSON / XML 
  (есть на это тесты  + rest-api-test-task.http примеры запросов с разными форматами)
@@ -19,6 +19,6 @@
                                                          "httpStatus": "INTERNAL_SERVER_ERROR"
                                                        }
                                                      }
-                                                                                                         
+  -                                                                                                           
   
 
